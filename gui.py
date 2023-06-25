@@ -7,4 +7,5 @@ add_button = PySimpleGUI.Button("Add")
 
 window = PySimpleGUI.Window("My To-Do App", layout=[[label], [input_box, add_button]])
 window.read()
+print("Hello World")
 window.close()
