@@ -1,4 +1,4 @@
-FILEPATH = "files/todos.txt"
+FILEPATH = "todos.txt"
 def printlist(todolist: []):
     for i, act in enumerate(todolist):
         act = act.strip('\n')
